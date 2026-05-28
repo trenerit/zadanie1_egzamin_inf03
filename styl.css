@@ -3,6 +3,7 @@
 }
 
 body {
+    display: flex;
     background-color: blanchedalmond;
     text-align: center;
 }
@@ -59,6 +60,12 @@ section {
 }
 
 #s3 {
-    display: none;
+    /* display: none; */
+}
+
+.wzory {
+    width: 70px;
+    margin: 5px;
+    border-radius: 100%;
 }
 
