@@ -1,0 +1,11 @@
+kw. 1 
+SELECT `imie`, `kolor`, `cena` FROM `klienci` WHERE `topKlient` = 1
+
+kw. 2
+SELECT `imie`, `cena` FROM `klienci` WHERE `termin` LIKE '%2024-05-23%'
+
+kw. 3
+SELECT `klienci`.`imie`, `klienci`.`kolor`, `ksztalty`.`ksztalt` FROM `klienci` JOIN `ksztalty` ON `klienci`.`ksztalty_id` = `ksztalty`.`id` WHERE `ksztalty`.`ksztalt` = 'migdał';
+
+kw. 4
+ALTER TABLE `wzory` ADD `doplata` INT NOT NULL AFTER `wzor`;
