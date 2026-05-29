@@ -44,6 +44,11 @@ button:nth-of-type(2), button:nth-of-type(3) {
     background-color: crimson;
 }
 
+button.active {
+    background-color: #ff1744;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+}
+
 section {
     background-color: salmon;
     margin-left: 10%;
@@ -60,7 +65,7 @@ section {
 }
 
 #s3 {
-    /* display: none; */
+    display: none;
 }
 
 .wzory {
